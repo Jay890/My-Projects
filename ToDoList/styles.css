@@ -35,6 +35,7 @@ li {
 #submit {
   display: inline;
   background-color: lightblue;
+  margin-bottom: 2%;
 }
 
 #userInput {
