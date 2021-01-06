@@ -21,13 +21,31 @@ li {
 /* Class selector */
 .container {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: center;
   padding-left: 2%;
+  width: 100%;
+  background-color: springgreen;
+}
+
+.flex {
+  display: flex;
+  background-color: lightgoldenrodyellow;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.flex .col {
+  flex: 1;
 }
 
 .sub-container {
   padding-bottom: 2%;
+}
+
+.flex-sub {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Id selector */
