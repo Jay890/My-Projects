@@ -23,7 +23,6 @@ li {
   display: flex;
   /* flex-direction: column; */
   justify-content: center;
-  padding-left: 2%;
   width: 100%;
   background-color: springgreen;
 }
