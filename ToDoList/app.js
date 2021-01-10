@@ -70,6 +70,36 @@ mondayToDo.addEventListener("click", function (e) {
   target.parentNode.removeChild(target);
 });
 
+tuesdayToDo.addEventListener("click", function (e) {
+  target = e.target;
+  target.parentNode.removeChild(target);
+});
+
+wednesdayToDo.addEventListener("click", function (e) {
+  target = e.target;
+  target.parentNode.removeChild(target);
+});
+
+thursdayToDo.addEventListener("click", function (e) {
+  target = e.target;
+  target.parentNode.removeChild(target);
+});
+
+fridayToDo.addEventListener("click", function (e) {
+  target = e.target;
+  target.parentNode.removeChild(target);
+});
+
+saturdayToDo.addEventListener("click", function (e) {
+  target = e.target;
+  target.parentNode.removeChild(target);
+});
+
+sundayToDo.addEventListener("click", function (e) {
+  target = e.target;
+  target.parentNode.removeChild(target);
+});
+
 addTask.addEventListener("keydown", function (event) {
   if (event.key === "Enter") {
     event.preventDefault();
